@@ -9,4 +9,86 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgb(31, 152, 182);
+  margin-top: 0.3rem;
+}
+
+div {
+  background-color: rgb(31, 152, 182);
+  width: 90%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(160, 222, 238);
+  text-align: center;
+  padding: 0.5em;
+  color: rgb(1, 59, 55);
+  font-size: 3rem;
+}
+
+.teal-background {
+  background-color: rgb(38, 80, 122);
+}
+
+div > main > nav {
+  display: flex;
+  background-color: rgb(71, 171, 201);
+  padding: 7px;
+  justify-content: space-around;
+}
+
+main > nav > a {
+  text-decoration: underline;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.article-container {
+  display: flex;
+  background-color: rgb(160, 222, 238);
+}
+
+.Kittehs-of-the-day {
+  display: flex;
+  flex-direction: column;
+  color: rgb(30, 30, 30);
+  border: 1px solid rgb(38, 80, 122);
+  padding: 0.3rem;
+  margin: 1rem;
+  flex-basis: 25%;
+  max-height: 35rem;
+}
+
+.Kitteh-image {
+  width: 99%;
+  height: auto;
+}
+
+.Busy-Kittehs {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  color: rgb(30, 30, 30);
+  margin: 1rem;
+  flex-basis: 75%;
+  width: 20rem;
+}
+
+footer {
+  display: flex;
+  padding: 0.7rem;
+  justify-content: space-around;
+  background-color: rgb(165, 165, 165);
+}
+
+footer > nav > a {
+  text-decoration: underline;
+  color: rgb(30, 30, 30);
+  text-align: center;
+  padding: 0.7rem;
 }
